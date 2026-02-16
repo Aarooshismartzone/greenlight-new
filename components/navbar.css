@@ -1,0 +1,112 @@
+/* Base Nav Link */
+.nav-link {
+    position: relative;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--foreground);
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: #22c55e;
+    /* green-500 */
+}
+
+/* Active Link */
+.active-link {
+    color: #22c55e;
+}
+
+/* Icons */
+.nav-icon {
+    color: #6b7280;
+    /* gray-500 */
+    transition: color 0.3s ease;
+}
+
+.nav-icon:hover {
+    color: #22c55e;
+}
+
+/* Underline Animation */
+.underline-anim {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background-color: #22c55e;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover .underline-anim {
+    width: 100%;
+}
+
+.active-link .underline-anim {
+    width: 100%;
+}
+
+/* ============ MEGA MENU ============ */
+
+.mega-menu {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-top: 1rem;
+
+    width: 500px;
+    transform: translateX(-50%) scale(0.95);
+
+    background: var(--background);
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 24px;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all 0.2s ease;
+    z-index: 50;
+}
+
+/* Show on Hover */
+.group:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) scale(1);
+}
+
+/* Grid */
+.mega-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+/* Mega Item */
+.mega-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 56px;
+    /* gray-100 */
+    border-radius: 10px;
+
+    font-size: 0.875rem;
+    font-weight: 500;
+
+    transition: all 0.2s ease;
+}
+
+/* Active Mega */
+.mega-active {
+    background: #bbf7d0;
+    /* green-200 */
+    color: #15803d;
+    /* green-700 */
+}
