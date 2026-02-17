@@ -42,9 +42,9 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col h-screen">
+          <div className="relative flex flex-col min-h-screen">
             <Navbar />
-            <main className="container">
+            <main className="w-full overflow-x-hidden">
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
