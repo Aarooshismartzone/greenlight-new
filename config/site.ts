@@ -9,24 +9,18 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "GreenLight",
-      children: [
-        {
-          label: "Experience",
-          href: "/greenlight-experience",
-        },
-        {
-          label: "Technology",
-          href: "/greenlight-technology",
-        },
-      ],
+      label: "GreenLight Experience",
+      href: "/greenlight-experience",
+    },
+    {
+      label: "GreenLight Technology",
+      href: "/greenlight-technology",
     },
     {
       label: "Creators",
       href: "/creators",
+      visible: false,
     },
-
-    // Events Dropdown
     {
       label: "Events",
       children: [
@@ -48,22 +42,6 @@ export const siteConfig = {
         },
       ],
     },
-
-    // Hidden for now
-    {
-      label: "Blog",
-      href: "/blog",
-      visible: false,
-    },
-
-    {
-      label: "About Us",
-      href: "/about-us",
-    },
-    {
-      label: "Careers",
-      href: "/careers",
-    },
     {
       label: "Partners",
       href: "/our-partners",
@@ -71,6 +49,21 @@ export const siteConfig = {
     {
       label: "Gallery",
       href: "/gallery",
+    },
+    {
+      label: "About Us",
+      href: "/about-us",
+      children: [
+        {
+          label: "Careers",
+          href: "/careers",
+        },
+      ],
+    },
+    {
+      label: "Blog",
+      href: "/blog",
+      visible: false,
     },
     {
       label: "Contact Us",

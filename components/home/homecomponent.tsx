@@ -201,7 +201,10 @@ export default function HomeComponent() {
                             </h3>
 
                             <p className="section-text">
-                                To pioneer spatially shared media where presence flows naturally.
+                                We believe the future of media is social, immersive, and inclusive. With
+                                GreenLight XR Media™, that future is now within reach. More than a platform,
+                                GreenLight XR is a movement to bring people and fans closer together,
+                                wherever they are in the world.
                             </p>
 
                         </div>
@@ -213,7 +216,9 @@ export default function HomeComponent() {
                             </h3>
 
                             <p className="section-text">
-                                To make immersive experiences accessible everywhere.
+                                Our mission is both technological and human: to create meaningful,
+                                immersive experiences accessible to anyone, on any device — without the
+                                barriers of expensive hardware or siloed ecosystems.
                             </p>
 
                         </div>
