@@ -1,0 +1,42 @@
+/* Ken Burns Animation */
+@keyframes kenburns {
+  0% {
+    transform: scale(1) translate(0,0);
+  }
+  100% {
+    transform: scale(1.15) translate(-2%, -2%);
+  }
+}
+
+.kenburns-img {
+  animation: kenburns 18s ease-in-out infinite alternate;
+}
+
+/* Smooth fade */
+.fade-transition {
+  transition: opacity 1s ease-in-out;
+}
+
+/* Floating tagline animation */
+@keyframes floatFade {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.floating-text {
+  animation: floatFade 1.4s ease forwards;
+}
