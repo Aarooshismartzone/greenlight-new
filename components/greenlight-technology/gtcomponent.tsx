@@ -109,7 +109,7 @@ export default function GreenLightTechnologyComponent() {
                 <div
                     className="
       absolute inset-0
-      bg-white/60 dark:bg-black/85
+      bg-white/60 dark:bg-black/80
       transition-colors duration-500
       flex flex-col justify-center items-center text-center px-6
     "
