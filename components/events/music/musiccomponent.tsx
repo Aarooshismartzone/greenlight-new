@@ -37,12 +37,12 @@ export default function MusicEventComponent() {
 
                     <div className="max-w-3xl px-6">
 
-                        <h1 className="text-3xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-3">
+                        <h1 className="text-3xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-3 fadeLeft">
                             <FaMusic />
                             Music Reimagined in XR
                         </h1>
 
-                        <p className="text-lg md:text-xl opacity-90">
+                        <p className="text-lg md:text-xl opacity-90 fadeRight">
                             GreenLight transforms concerts into immersive 3D experiences —
                             letting fans step inside performances, revisit moments, and connect with music like never before.
                         </p>
