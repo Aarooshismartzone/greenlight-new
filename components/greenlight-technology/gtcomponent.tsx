@@ -107,12 +107,7 @@ export default function GreenLightTechnologyComponent() {
 
                 {/* Overlay */}
                 <div
-                    className="
-      absolute inset-0
-      bg-white/60 dark:bg-black/80
-      transition-colors duration-500
-      flex flex-col justify-center items-center text-center px-6
-    "
+                    className="absolute inset-0 bg-white/60 dark:bg-black/80 transition-colors duration-500 flex flex-col justify-center items-center text-center px-6"
                 ></div>
 
                 {/* Hero Content */}

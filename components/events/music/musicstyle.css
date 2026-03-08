@@ -1,0 +1,39 @@
+.musicBannerOverlay {
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.55),
+            rgba(255, 255, 255, 0.85));
+}
+
+/* Dark mode override */
+
+.dark .musicBannerOverlay {
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.75));
+}
+
+.musicConclusionCard {
+    padding: 30px;
+    border-radius: 14px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.dark .musicConclusionCard {
+    background: #131a25;
+}
+
+.musicConclusionCard h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.musicConclusionCard p {
+    opacity: 0.8;
+    margin-top: 8px;
+}
+
+.musicConclusionCard:hover {
+    transform: translateY(-6px);
+}
