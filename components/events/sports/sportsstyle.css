@@ -1,0 +1,44 @@
+.sportsBannerOverlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(255,255,255,0.6),
+        rgba(255,255,255,0.9)
+    );
+}
+
+.dark .sportsBannerOverlay {
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.75)
+    );
+}
+
+/* Reuse animation from music page */
+
+.fadeLeft{
+    opacity:0;
+    transform:translateX(-40px);
+    animation:fadeLeftAnim 1s ease forwards;
+}
+
+.fadeRight{
+    opacity:0;
+    transform:translateX(40px);
+    animation:fadeRightAnim 1s ease forwards;
+    animation-delay:0.4s;
+}
+
+@keyframes fadeLeftAnim{
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+@keyframes fadeRightAnim{
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}

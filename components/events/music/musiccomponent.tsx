@@ -38,7 +38,6 @@ export default function MusicEventComponent() {
                     <div className="max-w-3xl px-6">
 
                         <h1 className="text-3xl md:text-5xl font-bold mb-4 flex items-center justify-center gap-3 fadeLeft">
-                            <FaMusic />
                             Music Reimagined in XR
                         </h1>
 
